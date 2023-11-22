@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media only screen and (max-width: 750px) {
+  .App {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
